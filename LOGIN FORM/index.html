@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="container">
+    <img class="image" src="resumelogo.jfif" alt="image" />
+    <nav class="navbar">
+      <li class="list">
+        <a href="/index.html" target="_blank">Home </a>
+      </li>
+      <li class="list">
+        <a href="/services.html" target="_blank">Services </a>
+      </li>
+      <li class="list">
+        <a href="/contact.html" target="_blank">ContacT </a>
+      </li>
+      <li class="list">
+        <a href="/about.html" target="_blank">About</a>
+      </li>
+    </nav>
+  </div>
+
+  <iframe src="clock.html" frameborder="0"></iframe>
+
+  <form action="#">
+    <fieldset>
+      <legend>Login </legend>
+
+      <div class="name">
+        <label for="Name">Full Name :
+
+          <input type="text" placeholder="Your Name" />
+        </label>
+      </div>
+      <div class="password">
+        <label for="Password">Password :
+
+          <input type="password" id="password" placeholder="Enter Your Password" />
+        </label>
+      </div>
+
+      <div class="E-mail">
+        <label for="">E-mail :
+
+          <input type="email" name="email" id="email" placeholder="Your E-mail" />
+        </label>
+      </div>
+
+      <div class="Mobile">
+        <label for="">Mobile No :
+
+          <input type="tel" name="Mobile" id="mobile" max="2" placeholder="Your Mobile No" />
+        </label>
+      </div>
+
+      <div class="location">
+        <label for="">Upload Your Resume</label>
+        <input type="file" name="file" id="file" />
+      </div>
+
+      <div class="dob">
+        <label for="">Date Of Birth :
+
+          <input type="date" name="dob" id="dob" />
+        </label>
+      </div>
+
+      <div class="gender">
+        <h2>Select Your Gender:</h2>
+        <label for="Male">
+          <input type="radio" name="Gender" id="Male" value="Male" /> Male
+        </label>
+
+        <label for="Female">
+          <input type="radio" name="Gender" id="Female" value="Female" />
+          Female
+        </label>
+      </div>
+
+      <div class="passion">
+        <h2>Who do you want to be :</h2>
+        <label for="Frontend">
+          <input type="checkbox" name="Frontend" id="Frontend" /> Frontend
+          Developer
+        </label>
+        <label for="Backend">
+          <input type="checkbox" name="Backend" id="Backend" /> Backend
+          Developer
+        </label>
+        <label for="Fullstack">
+          <input type="checkbox" name="Fullstack" id="Fullstack" /> Fullstack
+          Developer
+        </label>
+        <label for="Devops">
+          <input type="checkbox" name="Devops" id="Devops" /> DevOps
+        </label>
+        <label for="A.I">
+          <input type="checkbox" name="A.I" id="A.I" /> A.I Engineer
+        </label>
+      </div>
+
+      <div class="submit">
+        <input type="submit" value="Submit" />
+      </div>
+      <div class="reset">
+        <input type="reset" value="Clear" />
+      </div>
+    </fieldset>
+  </form>
+
+  <footer>Copyrights belongs to Coders!</footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
